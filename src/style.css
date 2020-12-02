@@ -1,0 +1,36 @@
+body {
+  margin: 0;  
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  height: 100px;
+  background-color: #f5ba13;
+  margin: 0;
+  color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header > h1 {
+  padding: 2rem 2rem;
+  margin: 0;
+}
+
+.footerDiv {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+  width: 10%;
+  margin: 3% auto;
+  opacity: 0.3;
+}

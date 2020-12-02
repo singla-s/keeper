@@ -1,18 +1,8 @@
 import React from 'react';
 
-let pi = "3.1415";
+let nodeTitle = <h3>This is note title</h3>;
+let nodeContent = <p>This is note content</p>;
 
-function singlePi() {
-  return pi;
-}
 
-function doublePi() {
-  return Math.pow(pi,2);
-}
 
-function tripplePi() {
-  return Math.pow(pi,3);
-}
-
-export default singlePi;
-export {doublePi, tripplePi};
+export default nodeTitle;
